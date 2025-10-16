@@ -248,12 +248,3 @@ Two-panel comparison for a single pair: **real view** vs. **zero-diff adjusted**
 * No images are included in the repository. Callers must provide local paths.
 * Ensure no personally identifiable information is written to artifacts.
 
----
-
-## Tunable Parameters (quick list)
-
-* Skin mask: `CR_MIN/CR_MAX`, `CB_MIN/CB_MAX`, `KERNEL_SHAPE`, `CLOSE_ITERS`, `OPEN_ITERS`
-* Edge detection: per-tile `threshold` (8-bit intensity)
-* Trimming/plotting: fixed by module defaults; adjust via function inputs and directory structure
-* Area plotting: `ALIGN_START`, `GRAPH_ONLY`, `FIGSIZE_MM`, `PRESERVE_ASPECT`, axis padding and tick parameters
-

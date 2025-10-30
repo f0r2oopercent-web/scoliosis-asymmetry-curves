@@ -6,10 +6,10 @@ Dohee Lee¹, Junghun Kim²* and Sang-il Choi³*
 
 *Correspondence: fainal2@cu.ac.kr ; sangilchoi@cu.ac.kr
 
-The data used in this study were collected after obtaining approval from the Institutional Review Board (IRB) of Kyungpook National University Hospital, in accordance with ethical guidelines (IRB number: KNUH 2025).
-
 This repository contains the implementation modules of a marker-less scoliosis asymmetry pipeline derived from our work.  
 **No datasets, demo images, or runnable entry points are included.** The code is organized as importable modules so you can run the pipeline with your own data.
+
+The data used in this study were collected after obtaining approval from the Institutional Review Board (IRB) of Kyungpook National University Hospital, in accordance with ethical guidelines (IRB number: KNUH 2025).
 
 ## Scope
 - Source code only (see `src/` and top-level modules listed below).
@@ -25,9 +25,6 @@ This repository contains the implementation modules of a marker-less scoliosis a
 - `area_between_trimmed_px_mirrored_overwrite_alignstart_erect.py` — mirror right, (optionally) align starts, integrate **|Δx|**, and save paper-ready figures.
 - `compare_real_vs_zero_diff_onepair.py` — two-panel comparison (**real view** vs. **zero-diff adjusted**) for a single pair.
 
-> Detailed function contracts are provided in `docs/API_EN.md` (and `docs/API_KR.md`).  
-> End-to-end structure is summarized in `docs/PIPELINE_OVERVIEW.md`.  
-> File-naming rules and batch renaming guidance are in `docs/RENAME_GUIDE.md`.
 
 ## Data & Privacy
 - Original images are not publicly available due to privacy restrictions.

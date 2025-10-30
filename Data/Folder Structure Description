@@ -1,0 +1,34 @@
+Folder Structure Description
+
+C***/
+
+This folder contains all intermediate and final results for subject C0003 in the avatar dataset.
+It includes every processing stage output of the markerless lumbar asymmetry analysis pipeline.
+
+▸ avatar_masks_skin_only/
+
+Contains binary skin-region masks extracted from the full avatar images.
+These masks are used in the preprocessing stage to isolate the torso and waist regions.
+
+avatar_crops/
+
+Contains the cropped upper-body (torso) regions from the avatar images, centered on the waist.
+These cropped images are used as input for subsequent edge detection, left–right reflection alignment, and asymmetry metric computation.
+
+▸ edges/
+
+Stores the left and right waist contour (edge) coordinates and their corresponding visualization images.
+
+▸ torso_slices/
+
+Contains separated left and right torso image slices, used for side-by-side comparison and alignment.
+
+▸ trimmed_results/
+
+Includes post-processed results after background removal and left–right torso alignment.
+
+▸ R1/
+
+Folder containing the final analysis results (Run 1).
+This directory includes only two final quantitative indicators —
+(1) area-based asymmetry and (2) Δx-based alignment deviation.

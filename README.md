@@ -1,6 +1,12 @@
-# Scoliosis Asymmetry Curves — Code-only Repository
+# Scoliosis Asymmetry Curves 
+Dohee Lee¹, Junghun Kim²* and Sang-il Choi³*
+¹School of Computer Software, Daegu Catholic University, Gyeongsan-si, Republic of Korea  
+²School of Computer Software, Daegu Catholic University, Gyeongsan-si, Republic of Korea  
+³School of Computer Software, Daegu Catholic University, Gyeongsan-si, Republic of Korea
+*Correspondence: fainal2@cu.ac.kr ; sangilchoi@cu.ac.kr
 
-This repository contains the **implementation modules** of a marker-less scoliosis asymmetry pipeline derived from our work.  
+
+This repository contains the implementation modules of a marker-less scoliosis asymmetry pipeline derived from our work.  
 **No datasets, demo images, or runnable entry points are included.** The code is organized as importable modules so you can run the pipeline with your own data.
 
 ## Scope

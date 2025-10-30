@@ -3,6 +3,7 @@ Dohee Lee¹, Junghun Kim²* and Sang-il Choi³*
 ¹School of Computer Software, Daegu Catholic University, Gyeongsan-si, Republic of Korea  
 ²School of Computer Software, Daegu Catholic University, Gyeongsan-si, Republic of Korea  
 ³School of Computer Software, Daegu Catholic University, Gyeongsan-si, Republic of Korea
+
 *Correspondence: fainal2@cu.ac.kr ; sangilchoi@cu.ac.kr
 
 The data used in this study were collected after obtaining approval from the Institutional Review Board (IRB) of Kyungpook National University Hospital, in accordance with ethical guidelines (IRB number: KNUH 2025).

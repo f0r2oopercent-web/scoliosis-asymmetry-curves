@@ -5,6 +5,7 @@ Dohee Lee¹, Junghun Kim²* and Sang-il Choi³*
 ³School of Computer Software, Daegu Catholic University, Gyeongsan-si, Republic of Korea
 *Correspondence: fainal2@cu.ac.kr ; sangilchoi@cu.ac.kr
 
+The data used in this study were collected after obtaining approval from the Institutional Review Board (IRB) of Kyungpook National University Hospital, in accordance with ethical guidelines (IRB number: KNUH 2025).
 
 This repository contains the implementation modules of a marker-less scoliosis asymmetry pipeline derived from our work.  
 **No datasets, demo images, or runnable entry points are included.** The code is organized as importable modules so you can run the pipeline with your own data.

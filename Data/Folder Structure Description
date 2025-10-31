@@ -1,34 +1,16 @@
-Folder Structure Description
-
-C***/
-
-This folder contains all intermediate and final results for subject C0003 in the avatar dataset.
-It includes every processing stage output of the markerless lumbar asymmetry analysis pipeline.
-
-▸ avatar_masks_skin_only/
-
-Contains binary skin-region masks extracted from the full avatar images.
-These masks are used in the preprocessing stage to isolate the torso and waist regions.
-
-avatar_crops/
-
-Contains the cropped upper-body (torso) regions from the avatar images, centered on the waist.
-These cropped images are used as input for subsequent edge detection, left–right reflection alignment, and asymmetry metric computation.
-
-▸ edges/
-
-Stores the left and right waist contour (edge) coordinates and their corresponding visualization images.
-
-▸ torso_slices/
-
-Contains separated left and right torso image slices, used for side-by-side comparison and alignment.
-
-▸ trimmed_results/
-
-Includes post-processed results after background removal and left–right torso alignment.
-
-▸ R1/
-
-Folder containing the final analysis results (Run 1).
-This directory includes only two final quantitative indicators —
-(1) area-based asymmetry and (2) Δx-based alignment deviation.
+SXX/                          # One subject (avatar) case: end-to-end artifacts
+├─ 01_skin_masks/
+│   └─ mask.png               # Binary skin mask (background/garment removed)
+├─ 02_input/
+│   ├─ torso_left.png         # Left torso slice (waist-centered) after preprocessing
+│   └─ torso_right.png        # Right torso slice (waist-centered) after preprocessing
+├─ 03_edges/
+│   ├─ left.csv               # Left waist contour coordinates (y, x)
+│   ├─ right.csv              # Right waist contour coordinates (y, x)
+│   ├─ left_vis.png           # Overlay visualization of the left contour
+│   └─ right_vis.png          # Overlay visualization of the right contour
+├─ 04_results/
+│   ├─ cropped_torso_A_area_between_fill.png  # Filled area between left/right contours (A), cropped view
+│   └─ real_vs_zero_diff.png  # Side-by-side view aligned to the same layout: real view vs zero-difference baseline
+├─ A.png                      # Example/summary visualization of metric A (see Methods)
+└─ AX.png                     # Example/summary visualization of metric AX (see Methods)

@@ -14,7 +14,7 @@ The collection and use of real human data were conducted in accordance with ethi
 The aims of this repository are: (i) to provide **readable, reusable, and modular source code** enabling researchers to apply the pipeline to their own datasets, and (ii) to transparently illustrate pipeline connectivity and output formats using an **avatar-based sample** within the bounds of public sharing. Command-line entry points and a `__main__` executable are **not** provided; example execution should be performed within the caller’s environment.
 
 
-## 2. Module Composition (High-Level)
+## 2. Module Composition 
 
 The core modules are as follows.
 First, `erect_skin_binarize.py` performs skin-region binarization in the YCrCb color space with morphological cleanup, providing a robust basis for contour extraction.
